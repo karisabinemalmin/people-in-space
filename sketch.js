@@ -11,3 +11,7 @@ function gotData(data) {
     ellipse(random(16, (400 - 16)), random(16, (100 - 16)), 16, 16);
   }
 }
+
+function draw() {
+  
+}
