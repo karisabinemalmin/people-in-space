@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(400, 100);
-  loadJSON("http://api.open-notify.org/astros.json", gotData);
+  loadJSON("http://api.open-notify.org/astros.json", gotData, 'jsonp');
 }
 
 function gotData(data) {
@@ -13,5 +13,5 @@ function gotData(data) {
 }
 
 function draw() {
-  
+
 }
